@@ -1,0 +1,41 @@
+{
+  "name": "@acgsan/print-yshop",
+  "version": "1.0.14",
+  "description": "Print HTML elements in modern browsers.",
+  "main": "dist/print.js",
+  "private": false,
+  "files": [
+    "/dist/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "release": "npm version patch && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-shop/yshop-yprint.git"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "print",
+    "elements",
+    "element printing"
+  ],
+  "author": "yshop <dev@qq.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/y-shop/yshop-yprint/issues"
+  },
+  "homepage": "https://github.com/y-shop/yshop-yprint#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "webpack": "^3.6.0"
+  }
+}
