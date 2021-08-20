@@ -1,41 +1,19 @@
 {
-  "name": "@acgsan/print-yshop",
-  "version": "1.0.14",
-  "description": "Print HTML elements in modern browsers.",
-  "main": "dist/print.js",
-  "private": false,
-  "files": [
-    "/dist/*",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ],
+  "name": "print-yshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "npm version patch && npm publish --access=public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y-shop/yshop-yprint.git"
+    "url": "git+https://github.com/yin-duo/print-yshop.git"
   },
-  "keywords": [
-    "html",
-    "dom",
-    "print",
-    "elements",
-    "element printing"
-  ],
-  "author": "yshop <dev@qq.com>",
-  "license": "AGPL-3.0",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/y-shop/yshop-yprint/issues"
+    "url": "https://github.com/yin-duo/print-yshop/issues"
   },
-  "homepage": "https://github.com/y-shop/yshop-yprint#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "cross-env": "^5.0.5",
-    "webpack": "^3.6.0"
-  }
+  "homepage": "https://github.com/yin-duo/print-yshop#readme"
 }
